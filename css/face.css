@@ -1,0 +1,320 @@
+/* 
+    Created on : 03/12/2020, 21:02:01
+    Author     : iNumera
+*/
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../font/Montserrat-SemiBold.ttf');
+    src: url('../font/Montserrat-SemiBold.ttf') format('embedded-opentype'),
+        url('../font/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*-***** Inicio Css corpo  *****-*/
+.corpo{
+    font-family: 'Montserrat-SemiBold';
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+4,eeeeee+50 */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 4%, #eeeeee 50%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ffffff 4%,#eeeeee 50%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ffffff 4%,#eeeeee 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+}
+/*-***** Fim Css corpo  *****-*/
+
+
+
+
+/*-***** Inicio Css cabeçalho  *****-*/
+.menu-topo ul li a{
+    color: #fff;
+}
+.menu-topo ul li a:hover{
+    color: #fff;
+}
+
+.menu-topo ul li ul li a{
+    color: #000;
+}
+
+.menu-topo ul li ul li a:hover{
+    color: #000;
+}
+/*-***** Fim Css cabeçalho  *****-*/
+
+
+/*-***** Inicio Css botoes  *****-*/
+
+.btn-color {
+    background-color: #013853;
+}
+
+.btn-color:hover {
+    background-color: #f18c20;
+}
+/*-***** Fim Css botoes  *****-*/
+
+
+
+
+
+/*-***** Inicio Css legenda e borda formulario  *****-*/
+.legend {
+    margin: 0 auto;
+    color: #013853;
+    font-size: 14px;
+    font-weight: bold;
+}
+.cotacao-form{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feffe8+0,d6dbbf+100;Wax+3D+%231 */
+    background: #feffe8; /* Old browsers */
+    background: -moz-linear-gradient(top,  #feffe8 0%, #d6dbbf 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #feffe8 0%,#d6dbbf 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #feffe8 0%,#d6dbbf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', endColorstr='#d6dbbf',GradientType=0 ); /* IE6-9 */
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: -20px;
+}
+.borda-form{
+    width: 80%;
+    border: 1px solid #ccc;  
+    border-radius: 3px;
+    margin-left: 75px;
+    text-align: center;
+    background-color: #fff;
+}
+
+::-webkit-input-placeholder {
+    color: #013853;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #013853;
+    font-size: 14px;
+    font-weight: bold; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #013853;
+    font-size: 14px;
+    font-weight: bold;  
+}
+
+:-ms-input-placeholder {  
+    color: #013853;
+    font-size: 14px;
+    font-weight: bold; 
+}
+
+@media(max-width: 700px){
+    .cotacao-form{
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feffe8+0,d6dbbf+100;Wax+3D+%231 */
+        background: #feffe8; /* Old browsers */
+        background: -moz-linear-gradient(top,  #feffe8 0%, #d6dbbf 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  #feffe8 0%,#d6dbbf 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  #feffe8 0%,#d6dbbf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', endColorstr='#d6dbbf',GradientType=0 ); /* IE6-9 */
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .borda-form{
+        width: 80%;
+        border: 1px solid #ccc;  
+        border-radius: 3px;
+        margin-left: 30px;
+        text-align: center;
+        background-color: #fff;
+        padding-bottom: 20px;
+    }   
+
+
+    .legend {
+        margin: 0 auto;
+        color: #013853;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    ::-webkit-input-placeholder {
+        color: #013853;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+        color: #013853;
+        font-size: 14px;
+        font-weight: bold; 
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+        color: #013853;
+        font-size: 14px;
+        font-weight: bold; 
+    }
+
+    :-ms-input-placeholder {  
+        color: #013853;
+        font-size: 14px;
+        font-weight: bold; 
+    }
+
+    .captcha {
+        width: 200px !important;
+    }
+
+    @media(max-width:700px){
+        .captcha {
+            width: 200px !important;
+        }
+    }
+}
+/*-***** Fim Css legenda e borda formulario  *****-*/
+
+
+
+
+
+
+
+/*-***** Inicio Css slide *****-*/
+
+.slider{
+    background-color: #D10000;
+    width: 100%;
+    height: 500px!important;
+}
+
+.slides {
+    background-color: #cfc;
+    width: 100%;
+    height: 100%!important;
+}
+
+.texto-esquerda {
+    width: 700px !important;
+    height: 400px;
+    margin-left: -190px;
+    margin-top: -50px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 4px darkblue;
+}
+
+.titulo-slide-left{
+    font-size: 26px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 4px darkblue;
+}
+
+.texto-slide-left{
+    font-size: 19px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 4px darkblue;
+}
+
+.titulo-slide-right{
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 4px darkblue;
+}
+
+.texto-slide-right{
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 4px darkblue;
+}
+
+.texto-direita {
+    width: 700px !important;
+    height: 400px;
+    margin-left: 660px;
+    margin-top: -50px;
+}
+
+.slides li img{
+    height: 500px !important;
+    width: 100% !important;
+    background-position: top!important;
+    background-size: 100% auto !important;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 700px){
+    .slides{
+        background-color: transparent;
+        margin: 0;
+        height: 130px!important;
+    }
+
+    .slider{
+        background-color: transparent;
+        margin: 0;
+        height: 130px !important;
+    }
+
+    .slides li img{
+        height: 130px !important;
+        width: 100% !important;
+        background-position: top;
+        background-size: 100% auto !important;
+        background-repeat: no-repeat;
+    }
+
+    .texto-esquerda {
+        width: 80% !important;
+        height: 130px;
+        margin-left: -100px;
+        margin-top: -35px;
+        text-align: center;
+    }
+
+    .titulo-slide-left{
+        font-size: 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 4px darkblue;        
+    }
+
+    .texto-slide-left{
+        font-size: 5px;
+        text-align: center;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 4px darkblue;
+    }
+
+    .titulo-slide-right{
+        font-size: 18px;
+        text-align: center;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 4px darkblue;
+    }
+
+    .texto-slide-right{
+        font-size: 14px;
+        text-align: center;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 4px darkblue;
+    }
+
+    .texto-direita {
+        width: 700px !important;
+        height: 400px;
+        margin-left: 660px;
+        margin-top: -50px;
+    }
+}
+/*-***** FIm Css slide *****-*/
+
+
+
+
+/*-***** Inicio Css tela login  *****-*/
+.login {
+    margin-top: 130px;    
+}
+
+.login fieldset{
+    border: 1px solid #ccc;  
+    border-radius: 3px;
+    text-align: center;
+}
+/*-***** Fim Css tela login  *****-*/
